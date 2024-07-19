@@ -1,0 +1,26 @@
+package firstassingment123;
+
+public class complex {
+int real ;
+int imag;
+
+public static void main(string[]args) {
+
+complex c1 = new complex();
+c1.real = 5;
+c1.imag = 6;
+system.out.println("complex no c1 = " + c1.real + " + " = c1. imag + "i");
+complex c1 = new complex():
+c2. real = 2;
+c2 .imag = 8;
+system.out.println("complex no c2 =" + c2.real + " + " = c2.imag + "i");
+ complex c3 = new complex();
+c3.real = c1.real + c2.real;
+c3.imag = c1.imag + c2.imag;
+system.out.println("Addition of complex no. 5 = " = c3.real + " + " + c3.imag + "i");
+complex c4 = new complex();
+c4.real = c1.real - c2.real;
+c4.imag = c1.imag - c2.imag;
+system.out.println("Substraction of complex no. 5 = " +c4.real + " + " +"(" + c4.imag + " ) " + "i");
+
+}
